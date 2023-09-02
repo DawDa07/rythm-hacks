@@ -6,6 +6,7 @@ import numpy as np
 #     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
 #     columns=['lat', 'lon'])
 
-data = [83.76, -122.45]
+d = {'col1': [1, 2], 'col2': [3, 4]}
+df = df = pd.DataFrame(data=d)
 
-st.mapf(data)
+st.mapf(df)
