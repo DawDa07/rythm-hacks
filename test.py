@@ -7,3 +7,5 @@ df = pd.DataFrame(
     columns=['lat', 'lon'])
 
 st.write("test")
+
+st.map(df)
