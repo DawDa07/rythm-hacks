@@ -9,4 +9,4 @@ import numpy as np
 d = {'col1': [1, 2], 'col2': [3, 4]}
 df = df = pd.DataFrame(data=d)
 
-st.mapf(df)
+st.map(df)
